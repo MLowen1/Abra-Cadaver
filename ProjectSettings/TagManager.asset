@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - Level Geometry
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1519047539
+    locked: 0
+  - name: 
+    uniqueID: 3728893751
+    locked: 0
+  - name: Level Geometry
+    uniqueID: 3837479595
     locked: 0

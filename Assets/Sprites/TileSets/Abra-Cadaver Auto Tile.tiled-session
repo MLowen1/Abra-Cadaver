@@ -3,30 +3,36 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Abra-Cadaver Base Tile Set.tsx",
+    "activeFile": "Abra-Cadaver Base Tile Map.tmx",
+    "automapping.whileDrawing": true,
     "expandedProjectPaths": [
-        ".",
-        "Rules"
+        "Rules",
+        "."
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1
+        },
         "Abra-Cadaver Base Tile Map.tmx": {
-            "scale": 5.5,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -90.63636363636364,
-                "y": -240.90909090909093
+                "x": 116.75,
+                "y": 79
             }
         },
         "Abra-Cadaver Base Tile Set.tsx": {
-            "scaleInDock": 1,
-            "scaleInEditor": 1
+            "dynamicWrapping": true,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 2
         },
         "Rules/autotile rules.tmx": {
-            "scale": 2,
+            "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 145.75,
-                "y": 1092.5
+                "x": 611.1666666666666,
+                "y": 44.33333333333333
             }
         }
     },
@@ -41,9 +47,9 @@
     "project": "Abra-Cadaver Auto Tile.tiled-project",
     "property.type": "bool",
     "recentFiles": [
+        "Abra-Cadaver Base Tile Set.tsx",
         "Rules/autotile rules.tmx",
-        "Abra-Cadaver Base Tile Map.tmx",
-        "Abra-Cadaver Base Tile Set.tsx"
+        "Abra-Cadaver Base Tile Map.tmx"
     ],
     "tileset.lastUsedFormat": "tsx"
 }

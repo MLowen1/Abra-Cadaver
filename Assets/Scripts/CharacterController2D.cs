@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using GlobalTypes;
+using System.Drawing;
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -11,9 +12,7 @@ public class CharacterController2D : MonoBehaviour
     public LayerMask layerMask;
 
     public float slopeAngleLimit = 45f;
-
     public float downForceAdjustment = 1.2f;
-
     public float coyoteTime = 0.2f;
 
     //flags (simple boolean which tell whether the player is in contact with anything around them. True then there is something below and false then there is nothing below.)
@@ -217,7 +216,7 @@ public class CharacterController2D : MonoBehaviour
         }
     }
 
-    private void DrawDebugRays(Vector2 direction, Color color)
+    private void DrawDebugRays(Vector2 direction, UnityEngine.Color color)
     {
         for (int i = 0; i < _rayCastPosition.Length; i++)
         {

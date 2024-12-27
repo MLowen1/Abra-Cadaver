@@ -22,11 +22,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534604, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10
+      value: -0.005
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534604, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534604, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -67,26 +67,38 @@ PrefabInstance:
     - target: {fileID: 4384684347654534605, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 941474389, guid: 745884f89238a224aaa4131fca7ca23e, type: 3}
+      objectReference: {fileID: -5828583757232367717, guid: 9643758d4edadfd498d1a8ce7da24aad, type: 3}
     - target: {fileID: 4384684347654534605, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_DrawMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534605, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534606, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_Name
       value: Player 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534606, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534640, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_Size.x
-      value: 1.52
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534640, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_Size.y
-      value: 2.12
+      value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534640, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_Offset.x
-      value: 0
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534640, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534640, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_Direction
@@ -100,37 +112,73 @@ PrefabInstance:
       propertyPath: below
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534642, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: rayCastDistance
+      value: 0.075
+      objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: gravity
-      value: 30
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: jumpSpeed
-      value: 12.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: walkSpeed
-      value: 12.5
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: canWallRun
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: canWallSlide
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: canDoubleJump
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: canTripleJump
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: wallRunAmount
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: xWallJumpSpeed
-      value: 12.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: yWallJumpSpeed
-      value: 12.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: doubleJumpSpeed
-      value: 12.5
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: tripleJumpSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: wallSlideAmount
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: trippleJumpSpeed
       value: 12.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: canMultipleWallRun
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534643, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: canJumpAfterWallJump
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534646, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_Controller
@@ -142,6 +190,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4384684347654534646, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
       propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384684347654534647, guid: 906ffc9f09703df44804da3b45fd8ce9, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
