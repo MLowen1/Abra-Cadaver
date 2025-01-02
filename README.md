@@ -1,2 +1,2 @@
 # Abra-Cadaver
- A 2d Platformer Game
+ Prototype 3 - A 2d Platformer Game made as a solo project
